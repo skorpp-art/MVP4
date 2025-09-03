@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Menú Digital</title>
+    <title>El Sazón del Chef - Menú</title>
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,147 +15,204 @@
 <body>
 
     <header>
-        <h1>Nuestro Menú</h1>
+        <h1>El Sazón del Chef</h1>
+        <p class="subtitle">Nuestro Menú</p>
     </header>
 
     <div class="carousel">
         <div class="carousel-item active">
-            <img src="a.png" alt="Promoción a">
+            <img src="a.png" alt="Promoción Semanal">
             <div class="carousel-caption">
-                <h3>Promoción 1</h3>
-                <p>Descripción de la promoción 1.</p>
+                <h3>¡PROMOCIÓN SEMANAL!</h3>
+                <p>Descripción senefina ¡2x1 los jueves.</p>
             </div>
         </div>
         <div class="carousel-item">
-            <img src="b.png" alt="Promoción b">
+            <img src="b.png" alt="Promoción Semanal">
             <div class="carousel-caption">
-                <h3>Promoción 2</h3>
-                <p>Descripción de la promoción 2.</p>
+                <h3>¡PROMOCIÓN SEMANAL!</h3>
+                <p>Descripción senefina ¡2x1 los jueves.</p>
             </div>
         </div>
         <div class="carousel-item">
-            <img src="c.png" alt="Promoción c">
+            <img src="c.png" alt="Promoción Semanal">
             <div class="carousel-caption">
-                <h3>Promoción 3</h3>
-                <p>Descripción de la promoción 3.</p>
+                <h3>¡PROMOCIÓN SEMANAL!</h3>
+                <p>Descripción senefina ¡2x1 los jueves.</p>
             </div>
         </div>
         <a class="prev">&#10094;</a>
         <a class="next">&#10095;</a>
+        <div class="carousel-dots"></div>
     </div>
 
     <div class="search-container">
-        <input type="text" id="search-bar" placeholder="Buscar plato...">
-        <span class="clear-search">&times;</span>
+        <input type="text" id="search-bar" placeholder="Buscar tu plato...">
     </div>
 
     <div id="search-results"></div>
 
     <main>
-        <!-- Sections and menu items remain the same -->
         <section id="especiales">
             <h2>Especiales</h2>
-            <div class="menu-item" data-description="Descripción del plato especial 1." data-suggestions="Acompañar con vino tinto,Agrandar porción de patatas,Postre recomendado: Flan casero">
-                <div class="menu-item-header"><h3>Plato Especial 1</h3><span class="price">$10.00</span></div>
+            <div class="menu-item" data-suggestions="Acompañar con vino tinto,Agrandar porción de patatas,Postre recomendado: Flan casero">
+                <img src="1.png" alt="Ceviche Refrescante" class="menu-item-image">
+                <div class="menu-item-details">
+                    <div class="menu-item-header">
+                        <h3>Ceviche Refrescante</h3>
+                        <span class="price">$18.50</span>
+                    </div>
+                    <p class="menu-item-description">Fresca combinación de pescado, limón y cilantro.</p>
+                </div>
             </div>
-            <div class="menu-item" data-description="Descripción del plato especial 2." data-suggestions="Sugerencia 1,Sugerencia 2">
-                <div class="menu-item-header"><h3>Plato Especial 2</h3><span class="price">$12.00</span></div>
+            <div class="menu-item" data-suggestions="Sugerencia 1,Sugerencia 2">
+                <img src="2.png" alt="Domes 2" class="menu-item-image">
+                <div class="menu-item-details">
+                    <div class="menu-item-header">
+                        <h3>Domes 2</h3>
+                        <span class="price">$12.50</span>
+                    </div>
+                    <p class="menu-item-description">Exquisitos domes rellenos de mariscos.</p>
+                </div>
             </div>
-            <div class="menu-item" data-description="Descripción del plato especial 3." data-suggestions="Sugerencia 1,Sugerencia 2">
-                <div class="menu-item-header"><h3>Plato Especial 3</h3><span class="price">$15.00</span></div>
+            <div class="menu-item" data-suggestions="Sugerencia 1,Sugerencia 2">
+                <img src="3.png" alt="Plato Especial 3" class="menu-item-image">
+                <div class="menu-item-details">
+                    <div class="menu-item-header">
+                        <h3>Plato Especial 3</h3>
+                        <span class="price">$15.00</span>
+                    </div>
+                    <p class="menu-item-description">Descripción del plato especial 3.</p>
+                </div>
             </div>
-            <div class="menu-item" data-description="Descripción del plato especial 4." data-suggestions="Sugerencia 1,Sugerencia 2">
-                <div class="menu-item-header"><h3>Plato Especial 4</h3><span class="price">$13.00</span></div>
+            <div class="menu-item" data-suggestions="Sugerencia 1,Sugerencia 2">
+                <img src="4.png" alt="Plato Especial 4" class="menu-item-image">
+                <div class="menu-item-details">
+                    <div class="menu-item-header">
+                        <h3>Plato Especial 4</h3>
+                        <span class="price">$13.00</span>
+                    </div>
+                    <p class="menu-item-description">Descripción del plato especial 4.</p>
+                </div>
             </div>
-            <div class="menu-item" data-description="Descripción del plato especial 5." data-suggestions="Sugerencia 1,Sugerencia 2">
-                <div class="menu-item-header"><h3>Plato Especial 5</h3><span class="price">$14.00</span></div>
+            <div class="menu-item" data-suggestions="Sugerencia 1,Sugerencia 2">
+                <img src="5.png" alt="Plato Especial 5" class="menu-item-image">
+                <div class="menu-item-details">
+                    <div class="menu-item-header">
+                        <h3>Plato Especial 5</h3>
+                        <span class="price">$14.00</span>
+                    </div>
+                    <p class="menu-item-description">Descripción del plato especial 5.</p>
+                </div>
             </div>
         </section>
 
         <section id="entradas">
             <h2>Entradas</h2>
-            <div class="menu-item" data-description="Descripción de la entrada 1." data-suggestions="Sugerencia 1,Sugerencia 2">
-                <div class="menu-item-header"><h3>Entrada 1</h3><span class="price">$5.00</span></div>
+            <div class="menu-item" data-suggestions="Sugerencia 1,Sugerencia 2">
+                <img src="a.png" alt="Entrada 1" class="menu-item-image">
+                <div class="menu-item-details">
+                    <div class="menu-item-header">
+                        <h3>Entrada 1</h3>
+                        <span class="price">$5.00</span>
+                    </div>
+                    <p class="menu-item-description">Descripción de la entrada 1.</p>
+                </div>
             </div>
-            <div class="menu-item" data-description="Descripción de la entrada 2." data-suggestions="Sugerencia 1,Sugerencia 2">
-                <div class="menu-item-header"><h3>Entrada 2</h3><span class="price">$6.00</span></div>
+             <div class="menu-item" data-suggestions="Sugerencia 1,Sugerencia 2">
+                <img src="a.png" alt="Entrada 2" class="menu-item-image">
+                <div class="menu-item-details">
+                    <div class="menu-item-header">
+                        <h3>Entrada 2</h3>
+                        <span class="price">$6.00</span>
+                    </div>
+                    <p class="menu-item-description">Descripción de la entrada 2.</p>
+                </div>
             </div>
-            <div class="menu-item" data-description="Descripción de la entrada 3." data-suggestions="Sugerencia 1,Sugerencia 2">
-                <div class="menu-item-header"><h3>Entrada 3</h3><span class="price">$7.00</span></div>
-            </div>
-            <div class="menu-item" data-description="Descripción de la entrada 4." data-suggestions="Sugerencia 1,Sugerencia 2">
-                <div class="menu-item-header"><h3>Entrada 4</h3><span class="price">$8.00</span></div>
-            </div>
-            <div class="menu-item" data-description="Descripción de la entrada 5." data-suggestions="Sugerencia 1,Sugerencia 2">
-                <div class="menu-item-header"><h3>Entrada 5</h3><span class="price">$9.00</span></div>
+             <div class="menu-item" data-suggestions="Sugerencia 1,Sugerencia 2">
+                <img src="a.png" alt="Entrada 3" class="menu-item-image">
+                <div class="menu-item-details">
+                    <div class="menu-item-header">
+                        <h3>Entrada 3</h3>
+                        <span class="price">$7.00</span>
+                    </div>
+                    <p class="menu-item-description">Descripción de la entrada 3.</p>
+                </div>
             </div>
         </section>
 
         <section id="principal">
             <h2>Principal</h2>
-            <div class="menu-item" data-description="Sopa tradicional con ajo y agua." data-suggestions="Acompañar con pan,Vino blanco">
-                <div class="menu-item-header"><h3>Sopa de Agua y Ajo</h3><span class="price">$20.00</span></div>
+            <div class="menu-item" data-suggestions="Acompañar con pan,Vino blanco">
+                <img src="b.png" alt="Sopa de Agua y Ajo" class="menu-item-image">
+                <div class="menu-item-details">
+                    <div class="menu-item-header">
+                        <h3>Sopa de Agua y Ajo</h3>
+                        <span class="price">$20.00</span>
+                    </div>
+                    <p class="menu-item-description">Sopa tradicional con ajo y agua.</p>
+                </div>
             </div>
-            <div class="menu-item" data-description="Descripción del plato principal 2." data-suggestions="Sugerencia 1,Sugerencia 2">
-                <div class="menu-item-header"><h3>Plato Principal 2</h3><span class="price">$22.00</span></div>
-            </div>
-            <div class="menu-item" data-description="Descripción del plato principal 3." data-suggestions="Sugerencia 1,Sugerencia 2">
-                <div class="menu-item-header"><h3>Plato Principal 3</h3><span class="price">$25.00</span></div>
-            </div>
-            <div class="menu-item" data-description="Descripción del plato principal 4." data-suggestions="Sugerencia 1,Sugerencia 2">
-                <div class="menu-item-header"><h3>Plato Principal 4</h3><span class="price">$23.00</span></div>
-            </div>
-            <div class="menu-item" data-description="Descripción del plato principal 5." data-suggestions="Sugerencia 1,Sugerencia 2">
-                <div class="menu-item-header"><h3>Plato Principal 5</h3><span class="price">$24.00</span></div>
+            <div class="menu-item" data-suggestions="Sugerencia 1,Sugerencia 2">
+                <img src="b.png" alt="Plato Principal 2" class="menu-item-image">
+                <div class="menu-item-details">
+                    <div class="menu-item-header">
+                        <h3>Plato Principal 2</h3>
+                        <span class="price">$22.00</span>
+                    </div>
+                    <p class="menu-item-description">Descripción del plato principal 2.</p>
+                </div>
             </div>
         </section>
 
         <section id="bebidas">
             <h2>Bebidas</h2>
-            <div class="menu-item" data-description="Agua mineral sin gas." data-suggestions="Con hielo,Con limón">
-                <div class="menu-item-header">
-                    <div class="menu-item-title">
+            <div class="menu-item" data-suggestions="Con hielo,Con limón">
+                <img src="c.png" alt="Agua sin gas" class="menu-item-image">
+                <div class="menu-item-details">
+                    <div class="menu-item-header">
                         <h3>Agua sin gas</h3>
-                        <div class="item-icons">
-                            <i class="fas fa-leaf" title="Apto para veganos"></i>
-                            <i class="fas fa-wheat-awn-circle-exclamation" title="Apto para celíacos"></i>
-                        </div>
+                        <span class="price">$2.00</span>
                     </div>
-                    <span class="price">$2.00</span>
+                    <p class="menu-item-description">Agua mineral sin gas.</p>
                 </div>
             </div>
-            <div class="menu-item" data-description="Agua mineral con gas." data-suggestions="Con hielo,Con limón">
-                <div class="menu-item-header"><h3>Agua con gas</h3><span class="price">$3.00</span></div>
-            </div>
-            <div class="menu-item" data-description="Descripción de la bebida 3." data-suggestions="Sugerencia 1,Sugerencia 2">
-                <div class="menu-item-header"><h3>Bebida 3</h3><span class="price">$4.00</span></div>
-            </div>
-            <div class="menu-item" data-description="Descripción de la bebida 4." data-suggestions="Sugerencia 1,Sugerencia 2">
-                <div class="menu-item-header"><h3>Bebida 4</h3><span class="price">$5.00</span></div>
-            </div>
-            <div class="menu-item" data-description="Descripción de la bebida 5." data-suggestions="Sugerencia 1,Sugerencia 2">
-                <div class="menu-item-header"><h3>Bebida 5</h3><span class="price">$6.00</span></div>
+            <div class="menu-item" data-suggestions="Con hielo,Con limón">
+                <img src="c.png" alt="Agua con gas" class="menu-item-image">
+                <div class="menu-item-details">
+                    <div class="menu-item-header">
+                        <h3>Agua con gas</h3>
+                        <span class="price">$3.00</span>
+                    </div>
+                    <p class="menu-item-description">Agua mineral con gas.</p>
+                </div>
             </div>
         </section>
 
         <section id="postres">
             <h2>Postres</h2>
-            <div class="menu-item" data-description="Descripción del postre 1." data-suggestions="Sugerencia 1,Sugerencia 2">
-                <div class="menu-item-header"><h3>Postre 1</h3><span class="price">$7.00</span></div>
+            <div class="menu-item" data-suggestions="Sugerencia 1,Sugerencia 2">
+                <img src="c.png" alt="Postre 1" class="menu-item-image">
+                <div class="menu-item-details">
+                    <div class="menu-item-header">
+                        <h3>Postre 1</h3>
+                        <span class="price">$7.00</span>
+                    </div>
+                    <p class="menu-item-description">Descripción del postre 1.</p>
+                </div>
             </div>
-            <div class="menu-item" data-description="Descripción del postre 2." data-suggestions="Sugerencia 1,Sugerencia 2">
-                <div class="menu-item-header"><h3>Postre 2</h3><span class="price">$8.00</span></div>
-            </div>
-            <div class="menu-item" data-description="Descripción del postre 3." data-suggestions="Sugerencia 1,Sugerencia 2">
-                <div class="menu-item-header"><h3>Postre 3</h3><span class="price">$9.00</span></div>
-            </div>
-            <div class="menu-item" data-description="Descripción del postre 4." data-suggestions="Sugerencia 1,Sugerencia 2">
-                <div class="menu-item-header"><h3>Postre 4</h3><span class="price">$10.00</span></div>
-            </div>
-            <div class="menu-item" data-description="Descripción del postre 5." data-suggestions="Sugerencia 1,Sugerencia 2">
-                <div class="menu-item-header"><h3>Postre 5</h3><span class="price">$11.00</span></div>
+            <div class="menu-item" data-suggestions="Sugerencia 1,Sugerencia 2">
+                <img src="c.png" alt="Postre 2" class="menu-item-image">
+                <div class="menu-item-details">
+                    <div class="menu-item-header">
+                        <h3>Postre 2</h3>
+                        <span class="price">$8.00</span>
+                    </div>
+                    <p class="menu-item-description">Descripción del postre 2.</p>
+                </div>
             </div>
         </section>
+        
     </main>
 
     <nav class="bottom-nav">
